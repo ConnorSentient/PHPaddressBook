@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato');
+
+.body {
+    background: #F5F6FA;
+}
+.cont {
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+    width: 90vw;
+    font-family: 'Lato'
+}
+
+hr {
+    background: #0c88ff;
+    border: none;
+    height: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Fjalla One';
+}
+
+input[type=text] {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+input:focus {
+    border: 2px solid #0c88ff;
+}
+
+input[type=submit] {
+    height: 50px;
+    width: 200px;
+}
+
+table {
+    border: solid 2px #0c88ff;
+    font-family: 'Lato';
+    font-weight: 500;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background: #f7fbff;
+}
+
+tr:nth-child(odd) {
+    background: #e4f2ff;
+}
+
+td {
+    border-right: 2px solid #0c88ff;
+}
+
+th {
+    font-family: 'Fjalla One';
+    border: solid 2px #0c88ff;
+}
+
+.enter {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background: #0cff83;
+    font-size: 18px;
+    font-family: "Fjalla One";
+}
+
+.enter:hover {
+    background: #00d86a;
+    border-right: 3px solid #00bf5d;
+    border-bottom: 3px solid #00bf5d;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: left;
+    justify-self: left;
+}
+
+.text {
+    justify-self: center;
+}
+
+.icon:hover {
+    color: #0c88ff;
+}
